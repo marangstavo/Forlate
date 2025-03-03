@@ -30,6 +30,27 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+<style>
+       
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        .media-item {
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+        }
+        .media-item img, .media-item video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+	
 	<link href="css/slid.css" rel="stylesheet">
 	
 	<script>
