@@ -358,62 +358,55 @@
 }
 
 /*** double-buttons ***/
-.promo {
-	margin: 6em auto;
-	max-width: 300px;
-	text-align: center;
+.double-buttons{
+  display:inline-block;
+  background-color: #fff;
+  border:1px solid #ddd;
+  position:relative;
+  border-radius: 20px;
+  height: 40px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  overflow: hidden;
 }
-
-.promo em {
-	font-family: Georgia, Times New Roman, serif;
-	display: inline-block;
-	background-color: #b6def2;
-	color: #194c66;
-	width: 4.5em;
-	height: 4.5em;
-	padding: 1.5em;
-	border-radius: 50%;
-	position: relative;
-	z-index: 2;
-	margin: -1.5em -1em;
+.double-buttons a{
+  display: inline-block;
+  padding: 0 30px;
+  line-height: 40px;
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
 }
-
-.butt {
-	padding: 1em 3em;
-	background-color: #f6f6f6;
-	border-radius: 4px;
-	color: #222;
-	text-decoration: none;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: .75em;
-	line-height: 2;
-	display: inline-block;
-	letter-spacing: .1em;
+.double-buttons a:first-child{
+  border-right: 1px solid #ddd;
 }
-
-.promo .butt {
-	min-width: 245px;
+.double-buttons a:hover{
+  background-color: #EE4E44;
+  color: #fff;
 }
-
-	.primary.butt {
-		background-color: #eb7966;
-		color: #fff;
-	}
-
-		.primary.butt:hover {
-			background-color: #d15a45;
-		}
-
-	.secondary.butt {
-		background-color: #194c66;
-		color: #fff;
-	}
-
-		.secondary.butt:hover {
-			background-color: #0b374d;
-		}
-
+.double-buttons a:active{
+  background-color: #444;
+  color: #fff;
+}
+.double-buttons .or{
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  background-color: #fff;
+  border-radius:100%;
+  border: 1px solid #ddd;
+  font-style: italic;
+  color: #666;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  cursor: default;
+}
 
 
 
